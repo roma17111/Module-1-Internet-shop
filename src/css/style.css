@@ -1,0 +1,253 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.top {
+    background-image: url("../img/top.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 735px;
+}
+
+header {
+    height: 76px;
+}
+
+.header__interier {
+    width: 198px;
+    height: 44px;
+}
+
+.head__input {
+    width: 288px;
+    height: 41px;
+    box-sizing: border-box;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    background-color: transparent;
+    padding-left: 32px;
+}
+
+.head__input::placeholder {
+    color: rgb(255, 255, 255);
+    width: 53px;
+    height: 20px;
+    left: 174.31%;
+    right: -92.71%;
+    top: 68.29%;
+    bottom: -17.07%;
+}
+
+.nav__link {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0;
+    text-align: left;
+    text-decoration: none;
+}
+
+.title {
+    color: rgb(255, 255, 255);
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 70px;
+    letter-spacing: 0;
+    text-align: left;
+    margin-top: 72px;
+    margin-bottom: 16px;
+}
+
+.top__content__sofa {
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0;
+    text-align: left;
+    text-decoration: none;
+    margin-bottom: 16px;
+}
+
+.top__content__link {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0;
+    text-align: left;
+    text-decoration-line: underline;
+}
+
+.special__content {
+    margin-top: 56px;
+}
+
+.special__title {
+    color: rgb(0, 0, 0);
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 59px;
+    letter-spacing: 0;
+    text-align: left;
+}
+
+.spec__block__link .catalog__img {
+    width: 379px;
+    height: 250px;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 127px;
+}
+
+.spec__block__title .catalog__block__title {
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0;
+    text-align: left;
+}
+
+.spec__block_text .catalog__block__text{
+    color: rgb(136, 136, 136);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0;
+    text-align: left;
+}
+
+.old__price {
+    color: rgb(136, 136, 136);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0;
+    text-align: left;
+    text-decoration-line: line-through;
+}
+
+.actual__price {
+    color: rgb(5, 5, 5);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0;
+    text-align: left;
+}
+
+.catalog__title {
+    color: rgb(0, 0, 0);
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 59px;
+    letter-spacing: 0;
+    text-align: left;
+}
+
+.block__catalog__link {
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0;
+    text-align: left;
+    text-decoration-line: underline;
+}
+
+footer{
+    box-sizing: border-box;
+    padding-top: 64px;
+}
+
+.interier__title {
+    color: rgb(0, 0, 0);
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    letter-spacing: 0;
+    text-align: left;
+}
+
+.footer__title {
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0;
+    text-align: left;
+}
+
+.footer__link {
+    color: rgb(136, 136, 136);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0;
+    text-align: left;
+}
+
+.footer__link__image {
+    width: 24px;
+    height: 19px;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: 0 20px;
+}
+
+.news__text {
+    color: rgb(0, 0, 0);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0;
+    text-align: left;
+}
+
+.email__input {
+    box-sizing: border-box;
+    border: 1px solid rgb(196, 196, 196);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    width: 260px;
+    height: 40px;
+    padding-left: 17px;
+}
+
+.email__input::placeholder {
+    color: rgb(196, 196, 196);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0;
+    text-align: left;
+}
+
+.news__button {
+    background: rgba(222, 215, 215, 0.41);
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 20px;
+    width: 260px;
+    height: 40px;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0;
+    text-align: center;
+}
